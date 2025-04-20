@@ -13,9 +13,9 @@ Dataset taken from Kaggle : https://www.kaggle.com/datasets/adityajn105/flickr8k
    creating sequences of words and numerical representations.
 
 **Model Architecture**
-The model integrates a CNN (encoder) and an RNN (decoder) to generate captions.
-Components:
-o Encoder: The VGG16 model extracts visual features from images.
-o Decoder: An LSTM-based RNN generates textual sequences from the encoded
-  features.
-o Combine image features and text embeddings as inputs to the decoder.
+I] The model integrates a CNN (encoder) and an RNN (decoder) to generate captions.
+II] Components:
+      1. Encoder: The VGG16 model extracts visual features from images.
+      2. Decoder: An LSTM-based RNN generates textual sequences from the encoded
+         features.
+      3. Combine image features and text embeddings as inputs to the decoder.
