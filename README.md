@@ -18,3 +18,10 @@ Dataset taken from Kaggle : https://www.kaggle.com/datasets/adityajn105/flickr8k
    1. Encoder: The VGG16 model extracts visual features from images.
    2. Decoder: An LSTM-based RNN generates textual sequences from the encoded features.
    3. Combine image features and text embeddings as inputs to the decoder.
+
+**Model Training :**
+1. The model is trained using the prepared dataset with supervised learning. The loss function and optimizer are chosen to ensure effective learning.
+2. Steps:
+   1. Use categorical cross-entropy as the loss function to predict the next word in the sequence.
+   2. Optimize the model using the Adam optimizer with learning rate adjustments.
+   3. Apply teacher forcing during training, feeding the actual next word as input to the model.
