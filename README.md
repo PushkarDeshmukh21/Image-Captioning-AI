@@ -12,10 +12,5 @@ Dataset taken from Kaggle : https://www.kaggle.com/datasets/adityajn105/flickr8k
 3. **Caption Preprocessing :** Captions are converted into a format suitable for input to the RNN model. This involves
    creating sequences of words and numerical representations.
 
-**Model Architecture**
+**Model Architecture :**
 I] The model integrates a CNN (encoder) and an RNN (decoder) to generate captions.
-II] Components:
-      1. Encoder: The VGG16 model extracts visual features from images.
-      2. Decoder: An LSTM-based RNN generates textual sequences from the encoded
-         features.
-      3. Combine image features and text embeddings as inputs to the decoder.
